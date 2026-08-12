@@ -28,15 +28,14 @@ public class Ex8_multoFor {
         for (int i = 1; i <= 10; i++){
 
             for(int j = 0; j <=9; j++){
+                           // <10;
                 
-                int res = j + i;
+                int res = i + j;
 
-                if(res > 10){
-                    System.out.print(res - 10 + " ");
-
-                }else{
-                    System.out.print(res + " ");
-                }
+                if(res > 10)
+                res -= 10;
+                System.out.print(res + " ");
+                 
 
             }//inner
 

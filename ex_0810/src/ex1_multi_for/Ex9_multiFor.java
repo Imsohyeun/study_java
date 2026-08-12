@@ -19,12 +19,15 @@ public class Ex9_multiFor {
   //  * * * * * * *
   //* * * * * * * * *
 
-        for(int i = 1; i <= 5; i++){
+        for(int i = 0; i < 5; i++){
 
-            for(int j = 0; j < i + 4; j++){
+            for(int j = 0; j < 5 + i; j++){
+
+              if( i + j > 3 )
 
                 System.out.print("* ");
-
+             else
+              System.out.print("  ");
             }//inner
 
             System.out.println();
