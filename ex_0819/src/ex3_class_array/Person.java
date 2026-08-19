@@ -1,0 +1,31 @@
+package ex3_class_array;
+
+public class Person {
+
+    private int age;
+    private String name;
+
+    //자동완성기능 쓰기 , 빈공간에 마우스 오른쪽 source action -> setter getter누르기 -> 체크누르기
+    //회사에서 많이쓰임
+
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setInfO(String name, int age){
+
+        this.name = name;
+        this.age = age;
+    }
+    
+    
+}
