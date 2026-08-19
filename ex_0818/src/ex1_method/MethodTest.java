@@ -6,7 +6,7 @@ public class MethodTest {
         System.out.println("test1 메서드 호출");
     }
 
-    public String test2( int n ){  //test2호출하고싶으면 강제로 int n
+    public int test2( int n ){  //test2호출하고싶으면 강제로 int n
         //n++;
         n += 100;
         System.out.println("결과 : " + n);
