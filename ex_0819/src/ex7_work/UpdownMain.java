@@ -1,5 +1,7 @@
 package ex7_work;
 
+import java.util.Scanner;
+
 public class UpdownMain {
     public static void main(String[] args) {
         
@@ -13,6 +15,20 @@ public class UpdownMain {
      //정수 : 25
      //3회 만에 정답
      
+     Scanner sc = new Scanner(System.in);
+     int select = 0;
+     boolean check = false;
+
+     UpdownSub us = new UpdownSub();
+
+     do{
+
+        System.out.print("정수 : ");
+         select = sc.nextInt();
+         check = us.check(select);
+
+     }while(check);// check ==ture
+
 
     }//main
 }
