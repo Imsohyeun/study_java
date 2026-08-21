@@ -1,0 +1,15 @@
+package ex11_work;
+
+public class WorkMain {
+    public static void main(String[] args) {
+        
+        //문제 : PEALP
+        //>>ealpp
+        //ealpp오답
+        //>>apple
+        //apple정답!!
+
+      String[] strArr = {"APPLE", "ORANGE", "HOPE", "VIEW"}  //랜덤으로 하나골라서 랜덤으로 섞어서 
+
+    }//main
+}
